@@ -5,7 +5,7 @@ Tags: gravity forms notification attachments
 Requires at least: 2.5
 Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 0.5.5
+Stable tag: 0.5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,9 @@ Plugin use default Gravity Forms send hook.
 
 == Changelog ==
 
+= 0.5.6 =
+* Bugfix.
+
 = 0.5.5 =
 * 6.6 compatibility.
 
@@ -100,6 +103,9 @@ Plugin use default Gravity Forms send hook.
 
 
 == Upgrade Notice ==
+
+= 0.5.6 =
+Bugfix.
 
 = 0.5.5 =
 6.6 compatibility.

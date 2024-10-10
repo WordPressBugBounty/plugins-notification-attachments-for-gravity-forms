@@ -1,7 +1,7 @@
 <?php
 /* 
 Plugin Name: Notification Attachments for Gravity Forms
-Version: 0.5.5
+Version: 0.5.6
 Description: Send attachment in Gravity Forms Notification
 Author: KGM Servizi
 Author URI: https://kgmservizi.com
@@ -23,7 +23,7 @@ function gf_kgm_notification_attachment_init() {
 	global $gf_kgm_notification_attachment;
 
 	if ( class_exists( 'GFForms' ) ) {
-		add_filter( 'gform_notification', 'gf_kgm_notification_attachment_send', 20, 3 );		
+		add_filter( 'gform_notification', 'gf_kgm_notification_attachment_send', 10, 3 );		
 		add_action( 'admin_enqueue_scripts', 'gf_kgm_notification_attachment_attach_script');
 		add_filter( 'gform_pre_notification_save', 'gf_kgm_notification_attachment_save', 10, 2 );
 		add_filter( 'gform_noconflict_scripts', 'gf_kgm_notification_attachment_gform_noconflict' );
@@ -31,7 +31,7 @@ function gf_kgm_notification_attachment_init() {
 		
 		$gf_kgm_notification_attachment = (object) array(
 			'text_domain' => 'gf-kgm-notification-attachment',
-			'version'     => '0.5.4',
+			'version'     => '0.5.6',
 			'plugin_url'  => trailingslashit( plugin_dir_url( __FILE__ ) )
 			);
 		return $gf_kgm_notification_attachment;
