@@ -2,10 +2,10 @@
 Contributors: kgmservizi
 Donate link: https://kgmservizi.com
 Tags: gravity forms notification attachments
-Requires at least: 2.5
-Tested up to: 6.7
-Requires PHP: 5.6
-Stable tag: 0.5.6
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.4
+Stable tag: 0.6.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,17 @@ Plugin use default Gravity Forms send hook.
 
 == Changelog ==
 
+= 0.6.3 =
+* Update compatibility versions (PHP/WP).
+
+= 0.6.2 =
+* Bugfix.
+
+= 0.6.1 =
+* Improved attachment path handling with CDN support
+* Better compatibility with other plugins
+* Other bugfix
+
 = 0.5.6 =
 * Bugfix.
 
@@ -103,6 +114,17 @@ Plugin use default Gravity Forms send hook.
 
 
 == Upgrade Notice ==
+
+= 0.6.3 =
+Update compatibility versions (PHP/WP).
+
+= 0.6.2 =
+Bugfix.
+
+= 0.6.1 =
+Improved attachment path handling with CDN support
+Better compatibility with other plugins
+Other bugfix
 
 = 0.5.6 =
 Bugfix.
